@@ -20,7 +20,7 @@ const SearchHeader = ({ onSearch }) => {
   };
 
   return (
-    <hearder className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.logo}>
         <img className={styles.logoImg} src="/images/logo.png" alt="logo" />
         <h1 className={styles.title}>Youtube</h1>
@@ -39,7 +39,7 @@ const SearchHeader = ({ onSearch }) => {
           alt="search"
         />
       </button>
-    </hearder>
+    </header>
   );
 };
 
