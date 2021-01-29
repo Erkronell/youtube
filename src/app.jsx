@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import styles from "./app.module.css";
-import SearchHeader from "./components/search_header/search_header";
-import VideoDetail from "./components/video_detail/video_detail";
-import VideoList from "./components/video_list/video_list";
+import React, { useEffect, useState } from 'react';
+import styles from './app.module.css';
+import SearchHeader from './components/search_header/search_header';
+import VideoDetail from './components/video_detail/video_detail';
+import VideoList from './components/video_list/video_list';
 
 function App({ youtube }) {
   const [videos, setVideos] = useState([]);
@@ -33,7 +33,7 @@ function App({ youtube }) {
           <VideoList
             videos={videos}
             onVideoClick={selectVideo}
-            display={selectedVideo ? "list" : "grid"}
+            display={selectedVideo ? 'list' : 'grid'}
           />
         </div>
       </section>
